@@ -6,29 +6,29 @@
     <title>A Basic Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>        
-        <form action="">
+<body>     
+        <form action="" class="container">
             <div class="header">
                 <h3>Sign Up</h3>
             </div> 
             <div class="email">
                 <label for="email">Email</label>
                 <br>
-                <input type="text" name="email" id="email" placeholder="Enter your Email">
+                <input type="email" name="email" id="email" placeholder="Enter your Email" required>
             </div>
             <div class="password">
                 <label for="password">Password</label>
                 <br>
-                <input type="text" name="password" id="password" placeholder="Password">
+                <input type="password" name="password" id="password" placeholder="Password" required>
             </div>
             <div class="confirm-password">
                 <label for="confirm-password">Confirm Password</label>
                 <br>
-                <input type="text" name="confirm-password" id="confirm-password" placeholder="Confirm-Password">
+                <input type="text" name="confirm-password" id="confirm-password" placeholder="Confirm-Password" required>
             </div>
             <div class="submit">
                 <input type="submit" name="signIn" id="submit" value="Submit Now">
             </div> 
-        </form>    
+        </form>        
 </body>
 </html>

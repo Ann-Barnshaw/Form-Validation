@@ -2,21 +2,26 @@
     padding: 0;
     margin: 0;
 }
-form {
-    border: 1px solid black;
+.container {
+    border: 1px solid aliceblue;
+    border-radius: 8px;
     width: 320px;
     margin: 0 auto;
     margin-top: 100px;
     height: 400px;
+    background-color: aliceblue;
 }
 input {
     margin: 10px;
+    font-weight: bolder;
 }
 label {
     margin: 10px;
+    font-weight: bold;
 }
 .header {
     margin: 25px;
+    background-color: aliceblue;
 }
 .email,
 .password,
@@ -28,16 +33,18 @@ label {
 #confirm-password 
 {
     padding: 10px 50px;
-
 }
  .submit {
-    margin-left: 15px;
-    
+    margin-left: 15px;  
  }
  #submit {
     padding: 10px 98px;
+    cursor: pointer;
  }
- 
 ::placeholder {
     color: lightgrey;
+    opacity: 0.8;
+}
+body {
+    background-color: lightgrey;
 }
